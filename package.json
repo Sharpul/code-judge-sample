@@ -1,0 +1,37 @@
+{
+  "name": "code-judge-sample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "^1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "//": [
+    "Kindly do not change the version 4.2.3 of mongodbMemoryServer config"
+  ],
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "4.2.3"
+    }
+  },
+  "description": "EXPRESS 4.17 SPA",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjudge/question-28-65516-express4.17.1-in-docker-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devjudge/question-28-65516-express4.17.1-in-docker-2/issues"
+  },
+  "homepage": "https://github.com/devjudge/question-28-65516-express4.17.1-in-docker-2#readme"
+}
